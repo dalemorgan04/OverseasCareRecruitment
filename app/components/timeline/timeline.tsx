@@ -1,3 +1,4 @@
+import AnimationOnScroll from "../animationOnScroll";
 import { XDirection } from "../componentEnums";
 import TimelineItem from "./timelineItem";
 

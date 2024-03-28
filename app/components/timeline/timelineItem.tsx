@@ -20,7 +20,7 @@ export default function TimelineItem({
         bulletAlignClasses = "-right-1.5";
     }
     return (
-        <li key={id} className={"mb-10 ml-4 " + listAlignClasses}>
+        <li key={id} className={"mb-10 ml-4 mr-2 " + listAlignClasses}>
             {/* Bullet */}
             <div
                 className={

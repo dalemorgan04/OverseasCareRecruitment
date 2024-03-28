@@ -31,8 +31,8 @@ export default function FindCandidatesPage() {
     return (
         <>
             <SectionOrange>
-                <h3 className="font-serif font-bold">Find Candindates</h3>
-                <p className="font-sans text-lg">
+                <h3 className="font-serif font-bold text-xl">Find Candindates</h3>
+                <p className="font-sans text-base">
                     If you are an employer looking to join our exclusive panel please contact us by
                     phone, email or contact form below
                 </p>

@@ -169,8 +169,8 @@ export default function BecomeCandidatePage() {
     return (
         <>
             <SectionOrange>
-                <h3 className="font-serif font-bold">Become a Candindate</h3>
-                <p className="font-sans text-lg">
+                <h3 className="font-serif font-bold text-xl">Become a Candindate</h3>
+                <p className="font-sans text-base">
                     Extensive support every step of the way to securing your ideal role in the UK
                 </p>
             </SectionOrange>
@@ -213,8 +213,9 @@ export default function BecomeCandidatePage() {
                                         id="country"
                                         autoComplete="country"
                                         className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1"
+                                        value="countrylist_x"
                                     >
-                                        <option selected key="countrylist_x">
+                                        <option key="countrylist_x">
                                             Select a Country{" "}
                                         </option>
                                         <CountryOptions />

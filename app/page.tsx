@@ -156,7 +156,7 @@ const HomePage = () => {
                     <div className="relative lg:w-6/12">
                         <AnimationOnScroll
                             classNameInView="transition-all ease-in duration-300 opacity-100"
-                            classNameNotInView="transition-all ease-in duration-300 opacity-0 -translate-x-6"
+                            classNameNotInView="transition-all ease-in duration-300 opacity-0"
                             triggerThreshold={0.1}>
 
                             <Image
@@ -229,7 +229,7 @@ const HomePage = () => {
                     <div className="relative lg:w-6/12">
                         <AnimationOnScroll
                             classNameInView="transition-all ease-in duration-300 opacity-100"
-                            classNameNotInView="transition-all ease-in duration-300 opacity-0 translate-x-6"
+                            classNameNotInView="transition-all ease-in duration-300 opacity-0"
                             triggerThreshold={0.1}>
 
                             <Image

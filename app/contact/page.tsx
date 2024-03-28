@@ -8,18 +8,18 @@ export default function ContactPage() {
     return (
         <>
             <SectionOrange>
-                <h3 className="font-serif font-bold">Contact Us</h3>
-                <p className="font-sans text-lg">
+                <h3 className="font-serif font-bold text-xl">Contact Us</h3>
+                <p className="font-sans text-base">
                     If you have any questions about our services please give us a call, send us an
                     email or fill our the contact form below
                 </p>
             </SectionOrange>
 
             {/* Phone and address */}
-            <div className="container mx-auto mt-10">
+            <div className="container mx-auto mt-10 ">
                 <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
-                    <div className="col-span-1">
-                        <h3 className="font-serif font-bold text-xl">Address</h3>
+                    <div className="col-span-1 p-2 mb-4">
+                        <h3 className="font-serif font-bold text-xl mb-2">Address</h3>
                         <address className="font-sans not-italic">
                             Overseas Care Recruitment, <br />
                             Crown House,
@@ -34,8 +34,8 @@ export default function ContactPage() {
                         </address>
                     </div>
 
-                    <div className="col-span-1">
-                        <h3 className="font-serif font-bold text-xl">Call</h3>
+                    <div className="col-span-1 p-2 mb-4">
+                        <h3 className="font-serif font-bold text-xl mb-2">Call</h3>
                         <address className="font-sans not-italic">
                             London: <a href="tel:+442071676646"> +44 (0)207 167 6646</a> |{" "}
                             <a href="tel:+442071676649">+44 (0)207 167 6649</a> <br />
@@ -43,8 +43,8 @@ export default function ContactPage() {
                         </address>
                     </div>
 
-                    <div className="col-span-1">
-                        <h3 className="font-serif font-bold text-xl">Email</h3>
+                    <div className="col-span-1 p-2 mb-4">
+                        <h3 className="font-serif font-bold text-xl mb-2">Email</h3>
                         <address className="font-sans not-italic">
                             <a href="mailto:info@overseascarerecruitment.co.uk">
                                 info@overseascarerecruitment.co.uk
