@@ -59,6 +59,7 @@ export default function ContactPage() {
                 {/* Contact Form */}
                 <div className=" bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
                     <form name="contact-general" method="POST" data-netlify="true" className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+                        <input type="hidden" name="form-name" value="contact-general"/>
                         <div className="text-gray-600">
                             <p className="font-medium text-lg">Get in touch</p>
                             <p>

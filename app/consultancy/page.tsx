@@ -197,6 +197,7 @@ export default function ConsultancyPage() {
 
                         <div className="lg:col-span-2">
                             <form name="contact-candidate" method="POST" data-netlify="true"  className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                                <input type="hidden" name="form-name" value="contact-candidate"/>
                                 <div className="md:col-span-3">
                                     <label htmlFor="full_name">Full Name</label>
                                     <input
