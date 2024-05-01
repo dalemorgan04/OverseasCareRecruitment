@@ -174,7 +174,7 @@ const HomePage = () => {
                             triggerThreshold={0.1}>
 
                             <h3 className="font-serif font-semibold text-xl mb-4 text-center">
-                                Personalized Support for Your Journey to Job Success
+                                Personalised Support for Your Journey to Job Success
                             </h3>
                             <p className="font-sans text-justify text-base">
                                 Our clients appreciate our expertise and market knowledge, knowing that
@@ -188,8 +188,8 @@ const HomePage = () => {
                             </p>
                             <div className="flex flex-row justify-center mt-4">
                                 <LinkButtonLight
-                                    buttonText="BECOME A CANDIDATE"
-                                    link="/become-candidate"
+                                    buttonText="FIND A CONSULTANT"
+                                    link="/consultancy"
                                 />
                             </div>
                         </AnimationOnScroll>
@@ -256,11 +256,10 @@ const HomePage = () => {
                             Established in 2004 as Overseas Care Recruitment (formerly known as
                             Worldwide Labour Placement & Consultancy Specialists), we are a UK-based
                             agency specialising in overseas placements. With dedicated divisions in
-                            Nursing Care Solutions, Healthcare Solutions, and Dental Solutions, we cater
-                            to both public and private sectors, offering positions from entry-level to
-                            executive roles. Our mission is to swiftly match candidates with the right
-                            job, while our vision is to create rewarding experiences for all
-                            stakeholders.
+                            Healthcare Solutions we cater to both public and private sectors, offering 
+                            positions from entry-level to executive roles. Our mission is to swiftly match 
+                            candidates with the right job, while our vision is to create rewarding 
+                            experiences for all stakeholders.
                         </p>
                     </AnimationOnScroll>
                 </SectionHeadingOrange>

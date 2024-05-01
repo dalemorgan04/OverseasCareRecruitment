@@ -1,6 +1,6 @@
 "use client";
 
-import ButtonLight from "../components/buttonLight";
+import SubmitButtonLight from "../components/buttonLight";
 import SectionHeadingBlue from "../components/headings/headingBlue";
 import SectionOrange from "../components/headings/headingOrange";
 
@@ -58,7 +58,7 @@ export default function ContactPage() {
                 <SectionHeadingBlue>GENERAL QUERY</SectionHeadingBlue>
                 {/* Contact Form */}
                 <div className=" bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
-                    <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+                    <form name="contact-general" method="POST" data-netlify="true" className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
                         <div className="text-gray-600">
                             <p className="font-medium text-lg">Get in touch</p>
                             <p>
@@ -101,12 +101,12 @@ export default function ContactPage() {
 
                                 <div className="md:col-span-5 text-right">
                                     <div className="inline-flex items-end">
-                                        <ButtonLight buttonText="Submit" />
+                                        <SubmitButtonLight buttonText="Submit" />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </>

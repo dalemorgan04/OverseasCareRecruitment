@@ -67,7 +67,7 @@ export default function NavBar() {
                         <Link href="/contact">Contact us</Link>
                     </li>
                     <li>
-                        <Link href="/become-candidate">Become a Candidate</Link>
+                        <Link href="/consultancy">Find a Consultant</Link>
                     </li>
                     <li>
                         <Link href="/find-candidates">Find Candidates</Link>

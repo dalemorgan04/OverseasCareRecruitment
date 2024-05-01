@@ -1,13 +1,13 @@
 "use client";
 
-import ButtonLight from "../components/buttonLight";
+import SubmitButtonLight from "../components/buttonLight";
 import CountryOptions from "../components/countryOptions";
 import SectionHeadingBlue from "../components/headings/headingBlue";
 import SectionOrange from "../components/headings/headingOrange";
 import SectionHeadingWhite from "../components/headings/headingWhite";
 import Timeline, { TimelineItemProps } from "../components/timeline/timeline";
 
-export default function BecomeCandidatePage() {
+export default function ConsultancyPage() {
     let processTimelineItems: TimelineItemProps[] = [];
 
     processTimelineItems.push({
@@ -169,7 +169,7 @@ export default function BecomeCandidatePage() {
     return (
         <>
             <SectionOrange>
-                <h3 className="font-serif font-bold text-xl">Become a Candindate</h3>
+                <h3 className="font-serif font-bold text-xl">Find a Consultant</h3>
                 <p className="font-sans text-base">
                     Extensive support every step of the way to securing your ideal role in the UK
                 </p>
@@ -196,7 +196,7 @@ export default function BecomeCandidatePage() {
                         </div>
 
                         <div className="lg:col-span-2">
-                            <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                            <form name="contact-candidate" method="POST" data-netlify="true"  className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
                                 <div className="md:col-span-3">
                                     <label htmlFor="full_name">Full Name</label>
                                     <input
@@ -244,10 +244,10 @@ export default function BecomeCandidatePage() {
 
                                 <div className="md:col-span-5 text-right">
                                     <div className="inline-flex items-end">
-                                        <ButtonLight buttonText="Submit"></ButtonLight>
+                                        <SubmitButtonLight buttonText="Submit"></SubmitButtonLight>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

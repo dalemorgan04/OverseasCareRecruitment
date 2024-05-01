@@ -1,9 +1,13 @@
+"use client";
+
 import React from "react";
 import NavBar from "./components/navbar";
 import "./globals.css";
 
 import { Baskervville, Noto_Sans } from "next/font/google";
 import Footer from "./components/footer";
+import { CSPostHogProvider } from "./components/postHog";
+
 
 // If loading a variable font, you don't need to specify the font weight
 const baskerville = Baskervville({
@@ -30,11 +34,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <link rel="icon" href="/ocr_128.svg" sizes="any" />
             </head>
-            <body>
-                <NavBar />
-                <main>{children}</main>
-                <Footer />
-            </body>
+            <CSPostHogProvider>
+                <body>
+                    <NavBar />
+                    <main>{children}</main>
+                    <Footer />
+                </body>
+            </CSPostHogProvider>
         </html>
     );
 }
