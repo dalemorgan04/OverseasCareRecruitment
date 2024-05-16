@@ -32,9 +32,9 @@ export default function TimelineItem({
             <h3 className="font-serif text-xl font-semibold text-gray-900 dark:text-white underline-offset-8 decoration-orange-400">
                 {heading}
             </h3>
-            <p className="text-justify mt-2 mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                {textContent}
-            </p>
+            <div className="text-justify mt-2 mb-4 text-base font-normal text-gray-500 dark:text-gray-400">                
+                {textContent}                
+            </div>
         </li>
     );
 }

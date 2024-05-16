@@ -51,7 +51,7 @@ const HomePage = () => {
                 </div>
 
                 {/* Hero */}
-                <div className="container bg-cyan-600 mx-auto h-full z-10 overflow-hidden">
+                <div className="container p-0 bg-cyan-600 mx-auto h-full z-10 overflow-hidden">
                     {/* Flex Columns - 2 rows */}
                     <div className="h-full flex flex-col">
                         {/* --- Top row --- */}
@@ -188,7 +188,7 @@ const HomePage = () => {
                             </p>
                             <div className="flex flex-row justify-center mt-4">
                                 <LinkButtonLight
-                                    buttonText="FIND A CONSULTANT"
+                                    buttonText="APPLY"
                                     link="/consultancy"
                                 />
                             </div>

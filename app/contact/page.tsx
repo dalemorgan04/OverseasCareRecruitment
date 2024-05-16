@@ -8,10 +8,10 @@ export default function ContactPage() {
     return (
         <>
             <SectionOrange>
-                <h3 className="font-serif font-bold text-xl">Contact Us</h3>
+                <h3 className="font-serif font-bold text-xl">Contact Information</h3>
                 <p className="font-sans text-base">
-                    If you have any questions about our services please give us a call, send us an
-                    email or fill our the contact form below
+                    If you have any general questions about our services please give us a call, send us an
+                    email or fill our the contact form below. <br/>
                 </p>
             </SectionOrange>
 
@@ -63,8 +63,9 @@ export default function ContactPage() {
                         <div className="text-gray-600">
                             <p className="font-medium text-lg">Get in touch</p>
                             <p>
-                                Send us a short message and we&apos;ll get back in touch with you
-                                straight away
+                                If you have any general queries about our service, send us a short message and we&apos;ll get back in touch with you
+                                straight away. <br/><br/>
+                                If you would like to show interest in any positions we may have, please fill out our <a className="font-bold" href="/apply">application form</a> instead.
                             </p>
                         </div>
 

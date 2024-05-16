@@ -7,7 +7,7 @@ import SectionOrange from "../components/headings/headingOrange";
 import SectionHeadingWhite from "../components/headings/headingWhite";
 import Timeline, { TimelineItemProps } from "../components/timeline/timeline";
 
-export default function ConsultancyPage() {
+export default function ApplicationPage() {
     let processTimelineItems: TimelineItemProps[] = [];
 
     processTimelineItems.push({
@@ -167,20 +167,17 @@ export default function ConsultancyPage() {
     });
 
     return (
-        <>
+        <>        
             <SectionOrange>
-                <h3 className="font-serif font-bold text-xl">Find a Consultant</h3>
+                <h3 className="font-serif font-bold text-xl">Applications</h3>
                 <p className="font-sans text-base">
-                    Extensive support every step of the way to securing your ideal role in the UK
+                    Use the application form below to introduce yourself and one of our consultants will reach out to you.
+                    We provide extensive support every step of the way to securing your ideal role in the UK
                 </p>
             </SectionOrange>
-            <div className="container mx-auto mt-10 flex flex-col">
-                <SectionHeadingWhite>Our process</SectionHeadingWhite>
-                <Timeline id="process-timeline" timelineItems={processTimelineItems} />
 
-                <SectionHeadingWhite>Certifications</SectionHeadingWhite>
-                <Timeline id="certificates-timeline" timelineItems={certTimelineItems} />
-            </div>
+            <br className="mb-10"/>
+
 
             <div className="container mx-auto mt-8">
                 {/* Contact Form */}
@@ -188,10 +185,9 @@ export default function ConsultancyPage() {
                 <div className=" bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
                     <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
                         <div className="text-gray-600">
-                            <p className="font-medium text-lg">Get in touch</p>
+                            <p className="font-medium text-lg">Introduce yourself</p>
                             <p>
-                                Send us a short message and we&apos;ll get back in touch with you
-                                straight away
+                                Fill out our form along with a brief cover letter, listing any relevant qualifications and experience you have. <br/>
                             </p>
                         </div>
 
@@ -209,12 +205,12 @@ export default function ConsultancyPage() {
                                 </div>
 
                                 <div className="md:col-span-2">
-                                    <label htmlFor="countries">Country</label>
+                                    <label htmlFor="countries">Country of Residence</label>
                                     <select
                                         id="country"
                                         autoComplete="country"
                                         className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1"
-                                        value="countrylist_x"
+                                        defaultValue={"countrylist_x"}
                                     >
                                         <option key="countrylist_x">
                                             Select a Country{" "}
@@ -235,7 +231,7 @@ export default function ConsultancyPage() {
                                 </div>
 
                                 <div className="md:col-span-5">
-                                    <label htmlFor="message">Message</label>
+                                    <label htmlFor="message">Cover letter</label>
                                     <textarea
                                         name="message"
                                         id="message"
@@ -253,6 +249,16 @@ export default function ConsultancyPage() {
                     </div>
                 </div>
             </div>
+
+
+            <div className="container mx-auto mt-10 flex flex-col">
+                <SectionHeadingWhite>Our process</SectionHeadingWhite>
+                <Timeline id="process-timeline" timelineItems={processTimelineItems} />
+
+                <SectionHeadingWhite>Certifications</SectionHeadingWhite>
+                <Timeline id="certificates-timeline" timelineItems={certTimelineItems} />
+            </div>
+            <br/>
         </>
     );
 }

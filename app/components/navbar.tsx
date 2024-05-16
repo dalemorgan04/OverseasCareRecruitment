@@ -64,13 +64,13 @@ export default function NavBar() {
                         <Link href="/">Home</Link>
                     </li>
                     <li>
-                        <Link href="/contact">Contact us</Link>
-                    </li>
-                    <li>
-                        <Link href="/consultancy">Find a Consultant</Link>
+                        <Link href="/apply">Apply</Link>
                     </li>
                     <li>
                         <Link href="/find-candidates">Find Candidates</Link>
+                    </li>
+                    <li>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

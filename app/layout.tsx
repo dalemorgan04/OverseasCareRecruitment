@@ -8,7 +8,6 @@ import { Baskervville, Noto_Sans } from "next/font/google";
 import Footer from "./components/footer";
 import { CSPostHogProvider } from "./components/postHog";
 
-
 // If loading a variable font, you don't need to specify the font weight
 const baskerville = Baskervville({
     weight: ["400"],

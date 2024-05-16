@@ -10,7 +10,7 @@ export default function Footer() {
             <div>London</div>
             <div>WC1N 3AX</div>
 
-            <div className="text-center">© Copyright 2023</div>
+            <div className="text-center">© Copyright 2024</div>
         </footer>
     );
 }
