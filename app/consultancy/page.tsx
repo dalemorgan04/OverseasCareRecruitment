@@ -212,6 +212,7 @@ export default function ConsultancyPage() {
                                     <label htmlFor="countries">Country</label>
                                     <select
                                         id="country"
+                                        name="country"
                                         autoComplete="country"
                                         className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1"
                                         value="countrylist_x"
