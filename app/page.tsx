@@ -186,12 +186,7 @@ const HomePage = () => {
                                 Count on us to provide customised solutions, backed by our extensive
                                 industry experience and a strong commitment to your success.
                             </p>
-                            <div className="flex flex-row justify-center mt-4">
-                                <LinkButtonLight
-                                    buttonText="APPLY"
-                                    link="/consultancy"
-                                />
-                            </div>
+                            <div className="flex flex-row justify-center mt-4"></div>
                         </AnimationOnScroll>
                     </div>
                 </div>
@@ -222,7 +217,6 @@ const HomePage = () => {
                                 contact us.
                             </p>
                             <div className="flex flex-row justify-center mt-4">
-                                <LinkButtonLight buttonText="FIND CANDIDATES" />
                             </div>
                         </AnimationOnScroll>
                     </div>

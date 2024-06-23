@@ -34,9 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="icon" href="/ocr_128.svg" sizes="any" />
             </head>
             <CSPostHogProvider>
-                <body>
+                <body className="min-h-screen flex flex-col">
                     <NavBar />
-                    <main>{children}</main>
+                    <main className="flex-grow">{children}</main>
                     <Footer />
                 </body>
             </CSPostHogProvider>
