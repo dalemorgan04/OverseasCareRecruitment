@@ -1,7 +1,4 @@
 "use client";
-
-import SubmitButtonLight from "../components/buttonLight";
-import SectionHeadingBlue from "../components/headings/headingBlue";
 import SectionOrange from "../components/headings/headingOrange";
 import SectionHeadingWhite from "../components/headings/headingWhite";
 import Timeline, { TimelineItemProps } from "../components/timeline/timeline";

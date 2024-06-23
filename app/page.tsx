@@ -3,7 +3,6 @@
 import {useEffect} from 'react'
 import Image from "next/image";
 import carerDoorPic from "../public/carerDoor.webp";
-import LinkButtonLight from "./components/linkButtonLight";
 import AnimationOnScroll from "./components/animationOnScroll";
 
 // Pics
