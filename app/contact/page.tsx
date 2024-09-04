@@ -26,15 +26,6 @@ export default function ContactPage() {
                             WC1N 3AX
                         </address>
                     </div>
-
-                    <div className="col-span-1 p-2 mb-4">
-                        <h3 className="font-serif font-bold text-xl mb-2">Call</h3>
-                        <address className="font-sans not-italic">
-                            London: <a href="tel:+442071676646"> +44 (0)207 167 6646</a> |{" "}
-                            <a href="tel:+442071676649">+44 (0)207 167 6649</a> <br />
-                            Manchester: <a href="tel:+441613624426">+44 (0)161 362 4426</a>
-                        </address>
-                    </div>
                 </div>
             </div>
         </>
